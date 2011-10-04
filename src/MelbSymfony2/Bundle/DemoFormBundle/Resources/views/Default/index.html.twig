@@ -1,0 +1,31 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}Hello world{% endblock %}
+
+{% block body %}
+    <header>
+        <h1>Example Message Form</h1>
+    </header>
+    <section>
+        <h2>Create a new message</h2>
+        <!-- TODO: Insert the form here -->
+
+
+
+
+
+
+        
+    </section>
+    {% if entities|length > 0 %}
+    <article>
+        <h2>Created Messages</h2>
+        {% for message in entities %}
+            <article>
+                <h1>{{message.name}}</h1>
+                <p>{{message.message}}</p>
+            </article>
+        {% endfor %}
+    </article>
+    {% endif %}
+{% endblock %}

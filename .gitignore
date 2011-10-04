@@ -1,3 +1,9 @@
 .idea/
 
 vendor/
+
+web/bundles/
+
+app/cache
+
+app/logs

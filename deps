@@ -59,3 +59,11 @@
     git=http://github.com/symfony/AsseticBundle.git
     target=/bundles/Symfony/Bundle/AsseticBundle
     version=v1.0.1
+
+[H5BP-Symfony2-Bundle]
+    git=git@github.com:FlintLabs/H5BP-Symfony2-Bundle.git
+    target=/bundles/FlintLabs/Bundle/H5BPBundle
+
+[Form-Metadata]
+    git=git@github.com:FlintLabs/FormMetadataBundle.git
+    target=/bundles/FlintLabs/Bundle/FormMetadataBundle
